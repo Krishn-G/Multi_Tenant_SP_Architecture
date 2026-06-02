@@ -8,7 +8,7 @@
 This lab simulates a **multi-tenant Service Provider (SP) network** built on an MPLS core, delivering two distinct VPN services simultaneously to different customer segments:
 
 - **L3VPN (VRF-A)** — Layer 3 VPN using MP-BGP VPNv4 with route reflection, serving CE1 and CE3
-- **L2VPN (VPLS)** — Layer 2 point-to-point pseudowire using LDP-signaled xconnect, serving CE2 (iosv-0) and CE4 (iosv-1)
+- **L2VPN (VPWS)** — Layer 2 point-to-point pseudowire using LDP-signaled xconnect, serving CE2 (iosv-0) and CE4 (iosv-1)
 
 The topology reflects a realistic SP core design with a redundant P-router mesh, dual Route Reflectors, and dedicated PE routers per service type.
 
